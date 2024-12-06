@@ -7,7 +7,7 @@ Computer science graduate with experience in machine learning and data science.
 
 # Projects
 
-1- Calculator
+1- Initial Project
 2- AWS
 3- Machine learning
 4- Financial 
