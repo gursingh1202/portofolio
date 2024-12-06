@@ -7,12 +7,12 @@ Computer science graduate with experience in machine learning and data science.
 
 # Projects
 
-1- Initial Project
-2- AWS
-3- Machine learning
-4- Financial 
-5- Thesis
-6- AI
+- Initial Project 
+- AWS
+- Machine learning
+- Financial 
+- Thesis
+- AI
 
 # Contacts 
 
