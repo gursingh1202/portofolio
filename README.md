@@ -1,19 +1,19 @@
 # Portofolio
 Collection of personal and commercial projects of Gurpreet Singh
 
-# About me
+## About me
 
 Computer science graduate with experience in machine learning and data science. 
 
-# Projects
+## Projects
 
-- Initial Project 
+- Initial startup Projects
 - AWS
 - Machine learning
-- Financial 
-- Thesis
+- Fintech
 - AI
-
-# Contacts 
+- Thesis
+  
+## Contacts 
 
 gur.singh1202
