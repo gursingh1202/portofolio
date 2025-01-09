@@ -5,11 +5,11 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #f7f7f7; /* Soft light gray background */
-  color: #333; /* Dark gray text for good contrast */
+  color: #black; /* Dark gray text for good contrast */
 }
 
 header {
-  background-color: #444; /* Neutral dark gray for header */
+  background-color: beige; /* Neutral dark gray for header */
   color: white; /* White text for good contrast */
   text-align: center;
   padding: 20px;
