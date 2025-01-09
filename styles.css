@@ -1,193 +1,64 @@
-/* General Styles */
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: #f4f1e1; /* Soft beige background */
-  color: #333; /* Dark gray text for good contrast */
-}
+<html lang="en">
 
-header {
-  background-color: #d1c6b1; /* Beige background for header */
-  color: #fff; /* White text for good contrast */
-  text-align: center;
-  padding: 20px;
-}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css">
 
-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-}
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
 
-header p {
-  font-size: 1.1rem;
-  margin: 10px 0 0;
-}
+<body>
 
-section {
-  padding: 30px 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: #ffffff; /* White background for sections */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
-}
+  <header>
+    <h1>Gurpreet Singh</h1>
+    <p>Portfolio - Collection of Personal and Commercial Projects</p>
+  </header>
 
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-}
+  <section>
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a Computer Science graduate with experience in Machine Learning and Data Science. I have a passion for
+        technology and a deep interest in artificial intelligence, fintech, and cloud computing.</p>
+    </div>
+  </section>
 
-h2 {
-  font-size: 2rem;
-  color: #5f4b3d; /* Dark brown for subheadings */
-  margin-bottom: 10px;
-}
+  <section>
+    <div class="container">
+      <h2>Projects</h2>
+      <ul id="projectsList">
+        <li>Initial Startup Projects</li>
+        <li>AWS Cloud Solutions</li>
+        <li>Machine Learning Models</li>
+        <li>Fintech Solutions</li>
+        <li>Artificial Intelligence Research</li>
+        <li>Thesis on AI and Data Science</li>
+      </ul>
+    </div>
+  </section>
 
-p {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #6e4b3a; /* Medium brown for paragraph text */
-}
+  <section>
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Feel free to reach out to me through the following contact:</p>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:gur.singh1202@gmail.com">gur.singh1202@gmail.com</a></p>
+        <!-- Add social media or GitHub link -->
+        <p>GitHub: <a href="https://github.com/your-github" target="_blank">github.com/your-github</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">linkedin.com/in/your-linkedin</a></p>
+      </div>
+    </div>
+  </section>
 
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
+  <footer>
+    <p>&copy; 2025 Gurpreet Singh | Portfolio</p>
+  </footer>
 
-ul li {
-  font-size: 1rem;
-  background-color: #f4e1c1; /* Light beige for list items */
-  margin: 5px 0;
-  padding: 10px;
-  border-radius: 5px;
-  color: #4a3b2d; /* Dark brown text for contrast */
-}
+</body>
 
-ul li:hover {
-  background-color: #e2d1b3; /* Slightly darker beige on hover */
-}
-
-.contact-info a {
-  color: #4a3b2d; /* Dark brown for the email link */
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.contact-info a:hover {
-  text-decoration: underline;
-  color: #2c1a14; /* Darker brown on hover for better interaction feedback */
-}
-
-footer {
-  background-color: #d1c6b1; /* Dark brown for footer */
-  color: #fff; /* White text for good contrast */
-  text-align: center;
-  padding: 10px;
-  margin-top: 30px;
-}
-
-/* Responsive Design */
-@media (max-width: 1200px) {
-  /* For larger tablets and desktops */
-  header h1 {
-    font-size: 2.2rem;
-  }
-
-  h2 {
-    font-size: 1.8rem;
-  }
-
-  section {
-    padding: 20px;
-  }
-
-  .container {
-    width: 85%;
-  }
-}
-
-@media (max-width: 992px) {
-  /* For medium devices like tablets */
-  header h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.6rem;
-  }
-
-  section {
-    padding: 20px 15px;
-  }
-
-  .container {
-    width: 90%;
-  }
-
-  ul li {
-    font-size: 0.95rem;
-    padding: 8px;
-  }
-}
-
-@media (max-width: 768px) {
-  /* For small devices like tablets in portrait mode */
-  header h1 {
-    font-size: 1.8rem;
-  }
-
-  h2 {
-    font-size: 1.4rem;
-  }
-
-  section {
-    padding: 20px 10px;
-  }
-
-  .container {
-    width: 95%;
-  }
-
-  footer {
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 480px) {
-  /* For mobile devices */
-  header h1 {
-    font-size: 1.6rem;
-  }
-
-  header p {
-    font-size: 1rem;
-  }
-
-  h2 {
-    font-size: 1.3rem;
-  }
-
-  p {
-    font-size: 0.95rem;
-  }
-
-  section {
-    padding: 15px;
-  }
-
-  .container {
-    width: 100%;
-  }
-
-  ul li {
-    font-size: 0.9rem;
-    padding: 8px;
-  }
-
-  footer {
-    font-size: 0.8rem;
-  }
-}
+</html>
 
