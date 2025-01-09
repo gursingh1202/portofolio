@@ -4,13 +4,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f7f7f7; /* Soft light gray background */
-  color: #black; /* Dark gray text for good contrast */
+  background-color: #f4f1e1; /* Soft beige background */
+  color: #333; /* Dark gray text for good contrast */
 }
 
 header {
-  background-color: beige; /* Neutral dark gray for header */
-  color: white; /* White text for good contrast */
+  background-color: #d1c6b1; /* Beige background for header */
+  color: #fff; /* White text for good contrast */
   text-align: center;
   padding: 20px;
 }
@@ -41,14 +41,14 @@ section {
 
 h2 {
   font-size: 2rem;
-  color: #222; /* Slightly darker gray for subheadings */
+  color: #5f4b3d; /* Dark brown for subheadings */
   margin-bottom: 10px;
 }
 
 p {
   font-size: 1rem;
   line-height: 1.6;
-  color: #555; /* A softer gray for paragraph text */
+  color: #6e4b3a; /* Medium brown for paragraph text */
 }
 
 ul {
@@ -58,31 +58,31 @@ ul {
 
 ul li {
   font-size: 1rem;
-  background-color: #f0f0f0; /* Light gray for list items */
+  background-color: #f4e1c1; /* Light beige for list items */
   margin: 5px 0;
   padding: 10px;
   border-radius: 5px;
-  color: #333; /* Dark text for contrast */
+  color: #4a3b2d; /* Dark brown text for contrast */
 }
 
 ul li:hover {
-  background-color: #e0e0e0; /* Slightly darker gray on hover */
+  background-color: #e2d1b3; /* Slightly darker beige on hover */
 }
 
 .contact-info a {
-  color: #444; /* Dark gray for the email link */
+  color: #4a3b2d; /* Dark brown for the email link */
   text-decoration: none;
   font-weight: 500;
 }
 
 .contact-info a:hover {
   text-decoration: underline;
-  color: #222; /* Darker on hover for better interaction feedback */
+  color: #2c1a14; /* Darker brown on hover for better interaction feedback */
 }
 
 footer {
-  background-color: #444; /* Neutral dark gray for footer */
-  color: white; /* White text for good contrast */
+  background-color: #4a3b2d; /* Dark brown for footer */
+  color: #fff; /* White text for good contrast */
   text-align: center;
   padding: 10px;
   margin-top: 30px;
