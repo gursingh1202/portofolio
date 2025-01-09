@@ -6,108 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Gurpreet Singh - Portfolio</title>
+  
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
-  <!-- Basic CSS Styles -->
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      background-color: #f4f4f9;
-    }
-
-    header {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-
-    header p {
-      font-size: 1.1rem;
-      margin: 10px 0 0;
-    }
-
-    section {
-      padding: 30px 20px;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-    }
-
-    h2 {
-      font-size: 2rem;
-      color: #333;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 1rem;
-      line-height: 1.6;
-      color: #555;
-    }
-
-    ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
-
-    ul li {
-      font-size: 1rem;
-      background-color: #e0e0e0;
-      margin: 5px 0;
-      padding: 8px;
-      border-radius: 5px;
-    }
-
-    .contact-info a {
-      color: #333;
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    .contact-info a:hover {
-      text-decoration: underline;
-    }
-
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 10px;
-      margin-top: 30px;
-    }
-
-    /* Responsive Design */
-    @media (max-width: 768px) {
-      header h1 {
-        font-size: 2rem;
-      }
-
-      h2 {
-        font-size: 1.6rem;
-      }
-
-      section {
-        padding: 20px 10px;
-      }
-
-      footer {
-        font-size: 0.9rem;
-      }
-    }
-  </style>
 </head>
 
 <body>
