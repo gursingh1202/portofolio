@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Gurpreet Singh - Portfolio</title>
-
+  
   <!-- Link to external CSS file -->
   <link rel="stylesheet" href="styles.css">
 
@@ -16,29 +17,11 @@
 <body>
 
   <header>
-    <div class="logo">
-      <h1>Gurpreet Singh</h1>
-      <p>Portfolio - Collection of Personal and Commercial Projects</p>
-    </div>
-
-    <!-- Hamburger Icon -->
-    <div class="hamburger-menu" id="hamburgerMenu">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </div>
-
-    <!-- Navigation Menu -->
-    <nav id="navMenu">
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <h1>Gurpreet Singh</h1>
+    <p>Portfolio - Collection of Personal and Commercial Projects</p>
   </header>
 
-  <section id="about">
+  <section>
     <div class="container">
       <h2>About Me</h2>
       <p>I am a Computer Science graduate with experience in Machine Learning and Data Science. I have a passion for
@@ -46,7 +29,7 @@
     </div>
   </section>
 
-  <section id="projects">
+  <section>
     <div class="container">
       <h2>Projects</h2>
       <ul id="projectsList">
@@ -60,7 +43,7 @@
     </div>
   </section>
 
-  <section id="contact">
+  <section>
     <div class="container">
       <h2>Contact</h2>
       <p>Feel free to reach out to me through the following contact:</p>
@@ -74,8 +57,7 @@
     <p>&copy; 2025 Gurpreet Singh | Portfolio</p>
   </footer>
 
-  <!-- Link to JavaScript file -->
-  <script src="script.js"></script>
 </body>
 
 </html>
+
