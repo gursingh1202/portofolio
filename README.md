@@ -1,23 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gurpreet Singh - Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  
+
+  <!-- Basic CSS Styles -->
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f4f4f9;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin: 10px 0 0;
+    }
+
+    section {
+      padding: 30px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      font-size: 1rem;
+      background-color: #e0e0e0;
+      margin: 5px 0;
+      padding: 8px;
+      border-radius: 5px;
+    }
+
+    .contact-info a {
+      color: #333;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.6rem;
+      }
+
+      section {
+        padding: 20px 10px;
+      }
+
+      footer {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
   <header>
     <h1>Gurpreet Singh</h1>
-    <p>Portfolio - Collection of personal and commercial projects</p>
+    <p>Portfolio - Collection of Personal and Commercial Projects</p>
   </header>
 
   <section>
     <div class="container">
       <h2>About Me</h2>
-      <p>I am a Computer Science graduate with experience in Machine Learning and Data Science. I have a passion for technology and a deep interest in artificial intelligence, fintech, and cloud computing.</p>
+      <p>I am a Computer Science graduate with experience in Machine Learning and Data Science. I have a passion for
+        technology and a deep interest in artificial intelligence, fintech, and cloud computing.</p>
     </div>
   </section>
 
@@ -26,11 +130,11 @@
       <h2>Projects</h2>
       <ul id="projectsList">
         <li>Initial Startup Projects</li>
-        <li>AWS</li>
-        <li>Machine Learning</li>
-        <li>Fintech</li>
-        <li>AI</li>
-        <li>Thesis</li>
+        <li>AWS Cloud Solutions</li>
+        <li>Machine Learning Models</li>
+        <li>Fintech Solutions</li>
+        <li>Artificial Intelligence Research</li>
+        <li>Thesis on AI and Data Science</li>
       </ul>
     </div>
   </section>
@@ -48,5 +152,7 @@
   <footer>
     <p>&copy; 2025 Gurpreet Singh | Portfolio</p>
   </footer>
+
 </body>
+
 </html>
