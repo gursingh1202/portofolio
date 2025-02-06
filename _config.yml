@@ -1,5 +1,2 @@
 title : Gurpreet Singh
-theme: jekyll-theme-minimal
-remote_theme: jekyll/minimal
-plugins:
-  - jekyll-feed
+theme: minima
