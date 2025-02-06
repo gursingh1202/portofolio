@@ -1,5 +1,3 @@
-# Gurpreet Singh
-
 ## Portfolio - Collection of Personal and Commercial Projects
 
 ### About Me
