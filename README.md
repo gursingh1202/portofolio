@@ -1,5 +1,3 @@
-## Portfolio - Collection of Personal and Commercial Projects
-
 ### About Me
 
 I am a Computer Science graduate with experience in Machine Learning and Data Science. I have a passion for technology and a deep interest in artificial intelligence, fintech, and cloud computing.
